@@ -1,0 +1,19 @@
+export const TIMEOUT_SECONDS = 100;
+
+export const HTTP_STATUS_CODE = {
+  SUCCESS_OK: 200,
+  REDIRECTION: 300,
+  CLIENT_ERROR: 400,
+  SERVER_ERROR: 500,
+  UNAUTHORISED_TOKEN: 401,
+  LOGOUT: 406,
+  UPDATE: 205,
+};
+
+export const METHOD_TYPE = {
+  GET: 'GET',
+  POST: 'POST',
+  DELETE: 'DELETE',
+  PATCH: 'PATCH',
+  PUT: 'PUT',
+};
